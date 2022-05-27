@@ -351,7 +351,7 @@ img {
 .textarea-modul:hover,
 .textarea-modul:focus {
   border: 1px solid var(--logo-cl);
-  cursor: pointer;
+  
 }
 .label-modul>.icon-modal{
   transition-property: fill;
@@ -362,7 +362,7 @@ img {
 .label-modul:hover>.icon-modal,
 .label-modul:focus>.icon-modal {
   fill: var(--logo-cl);
-  cursor: pointer;
+ 
 }
 
 .textarea-modul {
