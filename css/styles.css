@@ -56,6 +56,7 @@ img {
   clip-path: inset(50%);
   margin: -1px;
 }
+
 .header-container {
   display: flex;
   align-items: center;
@@ -71,9 +72,9 @@ img {
   padding: 94px 0;
 }
 /*Хедер*/
-.header {
+/* .header {
   border-bottom: 1px solid var(--border-header);
-}
+} */
 .logo {
   font-family: var(--logo-font);
   font-size: 26px;
@@ -364,7 +365,11 @@ img {
 }
 .input-modul:focus-within + .icon-modal {
   fill:var(--logo-cl);
-}
+ }
+
+/* .input-modul:focus + .icon-modal {
+  fill:var(--logo-cl);
+} */
 /* .label-modul:focus-within > .icon-modal {
   fill:var(--logo-cl);
 } */
