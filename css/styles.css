@@ -363,14 +363,14 @@ img {
 .label-modul:hover > .icon-modal {
   fill: var(--logo-cl);
 }
-.input-modul:focus-within + .icon-modal {
+.input-modul:focus+ .icon-modal {
   fill:var(--logo-cl);
  }
 
 /* .input-modul:focus + .icon-modal {
   fill:var(--logo-cl);
 } */
-/* .label-modul:focus-within > .icon-modal {
+/* .label-modul:focus > .icon-modal {
   fill:var(--logo-cl);
 } */
 .textarea-modul {
